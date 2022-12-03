@@ -1,0 +1,100 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+a {
+  color: maroon;
+  text-decoration: none;
+}
+
+.header {
+text-align:center;
+margin-top: 0;
+height: 120px;
+background: maroon;
+color: rgb(255, 255, 255);
+}
+.wc-header {
+  width: auto;
+}
+
+.wc_menu {
+  
+  display:grid;
+  margin-top: 50px;
+  width: 200px;
+display:grid; 
+grid-template-columns: 200px 200px;
+}
+
+.countries-menu {
+color: maroon;
+  font-weight: bolder;
+  font-size: larger;
+  border-style: outset;
+border-color: rgb(252, 217, 172);
+}
+.stadiums-menu {
+color: maroon;
+  font-weight: bolder;
+  font-size: larger;
+  border-style: outset;
+border-color: rgb(252, 217, 172);
+}
+
+
+
+
+.qatar {
+height: 80px;
+background-color: rgb(248, 224, 192);
+margin-top: 120px;
+font-weight:bolder;
+text-align: center;
+border-style: outset;
+border-color: rgb(252, 217, 172);
+}
+
+.qatar-flag {
+width: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.qatar:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.qatar:active {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.country {
+height: 80px;
+background-color: rgb(248, 224, 192);
+margin-top: 25px;
+font-weight:bolder;
+text-align: center;
+border-style: outset;
+border-color: rgb(252, 217, 172);
+}
+
+.flags {
+width: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.country:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.country:active {
+  opacity: 0.5;
+  cursor: pointer;
+}
