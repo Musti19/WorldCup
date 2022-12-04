@@ -96,7 +96,7 @@ color: rgb(255, 255, 255);
   height: 350;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .header {
     width: 400px;
     height: 150px;
