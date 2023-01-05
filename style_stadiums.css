@@ -33,7 +33,7 @@ color: rgb(255, 255, 255);
     margin-top: 50px;
     width: 200px;
   display:grid; 
-  grid-template-columns: 200px 200px;
+  grid-template-columns: 200px 200px 200px;
   }
 
 .countries-menu {
@@ -96,6 +96,7 @@ color: rgb(255, 255, 255);
   height: 350;
 }
 
+
 @media (max-width: 500px) {
   .header {
     width: 400px;
@@ -123,7 +124,4 @@ color: rgb(255, 255, 255);
   }
 
 }
-
-
-
 

@@ -1,0 +1,181 @@
+html {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align:center;
+  margin-top: 0;
+  height: 120px;
+  background: maroon;
+  color: rgb(255, 255, 255);
+  }
+  .wc-header {
+    width: auto;
+  }
+
+  a {
+    color: maroon;
+    text-decoration: none;
+  }
+
+  .wc_menu {
+  
+    display:grid; 
+    grid-template-columns: 200px 200px 200px;
+    margin-top: 50px;
+    width: 200px;
+  
+  }
+  
+  .countries-menu {
+  color: maroon;
+    font-weight: bolder;
+    font-size: larger;
+    border-style: outset;
+  border-color: rgb(252, 217, 172);
+  ;
+  }
+  .stadiums-menu {
+  color: maroon;
+    font-weight: bolder;
+    font-size: larger;
+    border-style: outset;
+  border-color: rgb(252, 217, 172);
+  }
+  
+
+
+  .ro_16 {
+    margin-top: 50px;
+    display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  column-gap: 10rem;
+  
+  }
+
+
+  .qf {
+    margin-top: 50px;
+    display: grid;
+  grid-template-columns: 200px 200px ;
+  column-gap: 30rem;
+  margin-left: 200px;
+  }
+  
+
+  .sf {
+    margin-top: 50px;
+    display: grid;
+  grid-template-columns: 200px 200px ;
+  column-gap: 30rem;
+  margin-left: 550px;
+  }
+
+  .final {
+    margin-top: 50px;
+    display: grid;
+  grid-template-columns: 200px 200px ;
+  column-gap: 10rem;
+  margin-left: 550px;
+  }
+  
+
+.match {
+  background-color: rgb(252, 223, 185);
+    display: flex;
+    border-radius: 8px;
+    flex-direction: column;
+    color: maroon;
+      font-weight: bolder;
+      font-size: larger;
+      border-style: outset;
+    border-color: rgb(252, 217, 172);
+}
+
+.match:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.match:active {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+
+.flag {
+  margin-top: 17px;
+  margin-left: 8px;
+  width: 30%;
+  height: 30px;
+  
+}
+
+
+p {
+  font-size: larger;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  color: maroon;
+  text-align: right;
+  margin-top: -35px;
+  margin-right: 40px;
+
+}
+
+
+@media (max-width: 500px) {
+  .header {
+    width: 400px;
+    height: 150px;
+  }
+  .wc_menu {
+  
+    display:grid; 
+    grid-template-columns: 200px 200px;
+    margin-top: 50px;
+    width: 200px;
+  
+  }
+
+ 
+
+  .ro_16 {
+    grid-template-columns: 5px 5px 5px 5px;
+    column-gap: 100px;
+  }
+  .qf {
+    grid-template-columns: 5px 5px;
+    column-gap: 100px;
+    margin-left: 25%;
+  }
+
+  .sf {
+    grid-template-columns: 5px;
+    column-gap: 100px;
+    margin-left: 40%;
+  }
+
+  .final {
+      grid-template-columns: 5px 5px;
+      column-gap: 100px;
+      margin-left: 40%;
+    }
+  
+
+  a {
+    width: 80px;
+    height: 50px;
+  }
+
+  .flag {
+    width: 25px;
+    height: 15px;
+  }
+
+  p {
+    font-size: smaller;
+    text-align:end;
+    margin-left: 50px;
+  }
+}
