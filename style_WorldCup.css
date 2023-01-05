@@ -101,3 +101,14 @@ margin-right: auto;
 }
 
 
+@media (max-width: 500px) {
+  .header {
+    width: auto;
+    height: 120px;
+  }
+
+
+    .wc_menu {
+  grid-template-columns: 190px 190px;
+    }
+  }

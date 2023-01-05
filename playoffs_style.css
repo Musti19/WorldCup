@@ -124,15 +124,15 @@ p {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .header {
-    width: 400px;
+    width: auto;
     height: 150px;
   }
   .wc_menu {
   
     display:grid; 
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 190px 190px;
     margin-top: 50px;
     width: 200px;
   
@@ -142,24 +142,28 @@ p {
 
   .ro_16 {
     grid-template-columns: 5px 5px 5px 5px;
-    column-gap: 100px;
+    column-gap: 95px;
+    padding-top: 45px;
   }
   .qf {
     grid-template-columns: 5px 5px;
-    column-gap: 100px;
-    margin-left: 25%;
+    column-gap: 150px;
+    margin-left: 20%;
+    margin-top: 100px;
   }
 
   .sf {
     grid-template-columns: 5px;
     column-gap: 100px;
     margin-left: 40%;
+    margin-top: 100px;
   }
 
   .final {
       grid-template-columns: 5px 5px;
       column-gap: 100px;
       margin-left: 40%;
+      margin-top: 100px;
     }
   
 
@@ -177,5 +181,6 @@ p {
     font-size: smaller;
     text-align:end;
     margin-left: 50px;
+    margin-top: -19px;
   }
 }
